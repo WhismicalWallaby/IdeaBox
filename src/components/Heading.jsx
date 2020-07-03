@@ -4,8 +4,8 @@ import EmojiObjectsIcon from "@material-ui/icons/EmojiObjects";
 function Heading(props) {
   return (
     <h1 className="heading">
-      <EmojiObjectsIcon style={{ fontSize: 50 }} />
-      {props.name && props.name + "'s"} Idea Box{" "}
+      <EmojiObjectsIcon style={{ fontSize: 40 }} />
+      {props.name && props.name + "'s "}Idea Box{" "}
     </h1>
   );
 }
