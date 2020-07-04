@@ -6,7 +6,6 @@
 
 body {
   background-color: #eee;
-  text-align: center;
   font-family: "Lato", sans-serif;
 }
 
@@ -21,6 +20,7 @@ body {
   text-align: left;
 }
 
+/* Footer */
 .footer {
   position: absolute;
   bottom: 0;
@@ -32,6 +32,7 @@ body {
   color: #ccc;
 }
 
+/* CreateArea */
 form.create-note {
   border-radius: 7px;
   position: relative;
@@ -61,4 +62,37 @@ form.create-note button {
   right: -11px;
   width: 44px;
   height: 44px;
+}
+
+/* Note  */
+.note {
+  background-color: #fff;
+  box-shadow: 0 2px 5px #ccc;
+  border-radius: 7px;
+  float: left;
+  margin: 16px;
+  padding: 10px;
+  width: 240px;
+}
+
+.note h2 {
+  margin-left: 5px;
+  margin-bottom: 6px;
+  font-size: 1.3rem;
+}
+
+.note p {
+  font-size: 1.1rem;
+  margin: 0 0 10px 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.delete-button {
+  color: #f5ba13;
+  position: relative;
+  float: right;
+  margin-right: 0;
+  width: 36px;
+  height: 36px;
 }
