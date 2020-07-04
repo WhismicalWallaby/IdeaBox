@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #eee;
   text-align: center;
   font-family: "Lato", sans-serif;
 }
@@ -29,4 +30,35 @@ body {
 
 .footer p {
   color: #ccc;
+}
+
+form.create-note {
+  border-radius: 7px;
+  position: relative;
+  margin: 30px auto 20px auto;
+  padding: 15px;
+  width: 480px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form.create-note input,
+form.create-note textarea {
+  border: none;
+  font-size: 1.5rem;
+  margin: 10px;
+  outline: none;
+  padding: 4px;
+  width: 100%;
+  resize: none;
+}
+
+form.create-note button {
+  background-color: #f5ba13;
+  color: #fff;
+  position: absolute;
+  bottom: -25px;
+  right: -11px;
+  width: 44px;
+  height: 44px;
 }
