@@ -88,7 +88,7 @@ form.create-note button {
   word-wrap: break-word;
 }
 
-.delete-button {
+.note button {
   color: #f5ba13;
   position: relative;
   float: right;
